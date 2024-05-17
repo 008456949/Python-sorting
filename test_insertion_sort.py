@@ -1,8 +1,15 @@
+"""
+Module docstring goes here.
+"""
+
 # test_insertion_sort.py
 import pytest
 from insertion_sort import insertion_sort
 
 def test_insertion_sort():
+    """
+    Function docstring goes here.
+    """
     # Test case 1: Unsorted array
     arr = [5, 2, 8, 12, 1, 6]
     sorted_arr = [1, 2, 5, 6, 8, 12]
